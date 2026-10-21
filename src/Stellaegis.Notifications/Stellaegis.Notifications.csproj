@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>Stellaegis.Notifications</RootNamespace>
+    <PackageId>Stellaegis.Notifications</PackageId>
+    <Description>Stellaegis notifications: a push channel from an application to the subscribers of one compartment — a tenant's front-ends, a mobile application, an on-premise agent. A notification always names its recipient; only the types the application declares may leave; the in-process channel delivers to the subscribers of the process, and a transport comes in its own package.</Description>
+    <PackageTags>stellaegis;notifications;push;compartment</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Stellaegis.Primitives" />
+    <PackageReference Include="Stellaegis.Primitives.Hosting" />
+    <InternalsVisibleTo Include="Stellaegis.Notifications.Tests" />
+  </ItemGroup>
+
+</Project>

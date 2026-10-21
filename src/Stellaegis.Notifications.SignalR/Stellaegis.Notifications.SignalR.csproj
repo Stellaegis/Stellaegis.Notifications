@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>Stellaegis.Notifications.SignalR</RootNamespace>
+    <PackageId>Stellaegis.Notifications.SignalR</PackageId>
+    <Description>Stellaegis notifications over SignalR: a hub mapped in the application's host, under its own authentication, where a connection subscribes to one compartment after the application authorizes it, and the channel that pushes each notification to the connections of its recipient.</Description>
+    <PackageTags>stellaegis;notifications;signalr;hub;compartment</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Stellaegis.Notifications\Stellaegis.Notifications.csproj" />
+    <PackageReference Include="Stellaegis.Primitives.AspNetCore" />
+    <InternalsVisibleTo Include="Stellaegis.Notifications.Tests" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+</Project>

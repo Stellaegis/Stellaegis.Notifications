@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Stellaegis.Notifications.SignalR/Stellaegis.Notifications.SignalR.csproj" />
+    <Project Path="src/Stellaegis.Notifications/Stellaegis.Notifications.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Stellaegis.Notifications.Tests/Stellaegis.Notifications.Tests.csproj" />
+  </Folder>
+</Solution>

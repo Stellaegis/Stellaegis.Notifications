@@ -7,6 +7,21 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [5.0.1] — 2026-11-09
+
+On `Stellaegis.Primitives` 5.6.0, so that a host taking this module takes the version of Primitives that closes what
+a badly assembled host let through. Nothing changes in the module's code.
+
+### Changed
+
+- **`Stellaegis.Primitives` 5.6.0.**
+
+### Updating from 5.0.0
+
+Take the version. A host meets what the startup of Primitives 5.6.0 now refuses, listed with its way out in the
+CHANGELOG of Primitives, § *Updating from 5.5.0* — mostly that admissions registered are asked: a host that registers
+one calls `UseStellaegisActorAdmission()`.
+
 ## [5.0.0] — 2026-10-21
 
 The first version published on its own, extracted from the Stellaegis framework as a module of the family, on
